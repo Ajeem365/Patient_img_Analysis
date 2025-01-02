@@ -105,7 +105,6 @@ if submit_button:
         # #Generative a response based on promt and image
         st.title("Here is the analysis based on your image ")
         response = model.generate_content(prompt_parts)
-        
         # Display the generated response text
         st.write(response.text)
 
